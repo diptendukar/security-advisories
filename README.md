@@ -9,8 +9,10 @@ for the corresponding CVE identifiers.
 
 | CVE | Package | Type | Severity |
 |-----|---------|------|----------|
-| [CVE-2026-106971](CVE-2026-106971.md) | rybakit/msgpack (msgpack.php) | Integer overflow leading to DoS (32-bit PHP) | Denial of service |
-| [CVE-2026-106972](CVE-2026-106972.md) | rybakit/msgpack (msgpack.php) | Uncontrolled recursion leading to DoS | 7.5 (High) |
+| [CVE-2026-106971](CVE-2026-106971.md) | rybakit/msgpack (msgpack.php) | Integer overflow leading to DoS (32-bit PHP) | High (CVSS 3.1 7.5)\* |
+| [CVE-2026-106972](CVE-2026-106972.md) | rybakit/msgpack (msgpack.php) | Uncontrolled recursion leading to DoS | High (CVSS 3.1 7.5) |
+
+\* Suggested score. The condition is 32-bit PHP only; final scoring is deferred to the assigning CNA.
 
 ## Disclosure
 
